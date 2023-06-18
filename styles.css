@@ -4,26 +4,24 @@ html {
 
 .navigation {
     font-weight: 700;
-    height: 100px;
+    height: 100vh;
     float: none;
 }
 
 .navigation ul {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     list-style: none;
 }
 
 .navigation li {
     display: inline-block;
-    margin-left: 0 70px;
-    padding-top: 50px;
-    padding-right: 100px;
-    padding-bottom: 20px;
-
-
-    position: relative
+    padding-top: 5vh;
+    padding-right: 5vw;
+    padding-bottom: 5vh;
+    position: relative;
 }
+
 
 .navigation a {
     float: left;
@@ -38,17 +36,14 @@ html {
 .navigation a:hover {
     color: #E1D7C6;
     transition: all ease-in 200ms;
-    transform: translateX(20px);
+    transform: translateX(1rem);
 }
 
-
-
 .logo {
-    width: 120px;
+    width: 7rem;
     height: auto;
     margin: auto;
     float: left;
-
 }
 
 body {
@@ -57,7 +52,6 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-
 }
 
 html {
@@ -66,20 +60,16 @@ html {
     font-family: sans-serif;
 }
 
-
-
 html,
 body,
-main{
+main {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
     min-height: 100%;
     display: flex;
     flex-direction: column;
 }
-
 
 main {
     overflow: hidden;
@@ -91,16 +81,16 @@ main {
     align-items: center;
 }
 
-section{
+section {
     background: #f8ede3;
 }
 
-section article.tall{
+section article.tall {
     width: 500px;
     height: auto;
 }
 
-section article.tall p{
+section article.tall p {
     color: #ffffff;
     padding: 10px;
     position: relative;
@@ -108,7 +98,7 @@ section article.tall p{
     z-index: 2;
 }
 
-section article.tall div span:nth-child(1){
+section article.tall div span:nth-child(1) {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -118,11 +108,10 @@ section article.tall div span:nth-child(1){
     background: #6783a5;
     z-index: -2;
     height: 100%;
-    width:100%;
-    
+    width: 100%;
 }
 
-section article.tall div span:nth-child(2){
+section article.tall div span:nth-child(2) {
     top: 0;
     bottom: 0;
     right: 0;
@@ -139,7 +128,7 @@ section article.tall div:nth-child(1) span:nth-child(2) {
 }
 
 section article.tall div:nth-child(2) span:nth-child(2) {
-    width:75%;
+    width: 75%;
     animation-delay: 0.05s;
 }
 
@@ -158,11 +147,8 @@ section article.tall div:nth-child(5) span:nth-child(2) {
     animation-delay: 0.1s;
 }
 
-
-
-
 .tall {
-    animation: tall 1.25s cubic-bezier(0.17,0.67,0,1);
+    animation: tall 1.25s cubic-bezier(0.17, 0.67, 0, 1);
 }
 
 @keyframes tall {
@@ -170,22 +156,18 @@ section article.tall div:nth-child(5) span:nth-child(2) {
         left: -500px;
         opacity: 0;
     }
-    100%{
-        left:0px;
+    100% {
+        left: 0px;
         opacity: 1;
     }
 }
-
-
 
 .top-container {
     background-color: #D0B8A8;
     position: relative;
     padding-top: 150px;
     background-color: #f8ede3;
-
 }
-
 
 .cloud-header {
     position: absolute;
@@ -193,18 +175,16 @@ section article.tall div:nth-child(5) span:nth-child(2) {
 }
 
 .cloud-right {
-    transform: translateX(980%);
+    transform: translateX(700%);
 }
 
 .cloud-left {
     transform: translateX(50%);
 }
 
-
 .top-container:hover .cloud-right {
-    transform: translateX(1000%);
+    transform: translateX(750%);
 }
-
 
 .top-container:hover .cloud-left {
     transform: translateX(20%);
@@ -225,13 +205,10 @@ footer {
     margin-top: auto;
 }
 
-
-
 .all-row {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-
 }
 
 hr {
@@ -259,7 +236,6 @@ h1 {
     font-family: 'Sacramento', cursive;
     line-height: 2;
     padding-bottom: 10px;
-
 }
 
 h2 {
@@ -281,22 +257,6 @@ p {
 .footer-link {
     color: #11999E;
 }
-
-
-
-
-.bottom-cloud {
-    position: absolute;
-    left: 250px;
-    bottom: 300px;
-}
-
-.top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 40px;
-}
-
 
 
 .profile-img {
@@ -361,5 +321,5 @@ p {
 }
 
 .button-container {
-  margin: 2em;
+    margin: 2em;
 }
